@@ -1,0 +1,121 @@
+header {
+    text-align: center;
+}
+
+head {
+    flex-basis: auto;
+}
+
+:root {
+    min-width: 877px;
+    --white: white;
+    --bright-turquoise: #2aefcb;
+    --gin: #e0eae4;
+    --heliotrope: #e866ec;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+/* .flextable {
+    width: 100%;
+    max-width: 898px;
+    height: 400px;
+    max-height: 500px;
+    margin: 10px;
+    border-collapse: collapse;
+    text-align: center;
+    border: dotted, black;
+} */
+
+/* .flextable th,
+:flextable td {
+    border: 1px dotted #ddd;
+    padding: 10px;
+} */
+
+
+.container {
+    :hover {
+        text-shadow: 0 0 0 5px #ff0000;
+        box-shadow: 10px 10px 5px 10px #0ff;
+        text-shadow: 1 1 1px #ff0000;
+        opacity: 100;
+    }
+
+    color: white;
+    text-align: center;
+    display: grid;
+    max-height: 500px;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(3, auto);
+}
+
+
+div.card {
+    border: dotted,
+        8px;
+    text-align: center;
+    align-items: stretch;
+    height: 200px;
+    min-width: none;
+    user-select: auto;
+    background-color: var(--secondary-bg);
+    padding: 15px;
+    border-radius: 8px;
+    border-color: black;
+    text-color: white;
+    box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    text-align: match-parent;
+}
+
+h3 {
+    display: flex, block;
+    word-wrap: break-word;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: rgb(87, 12, 152);
+    border: 10px solid rgb(60, 31, 67);
+    border-width: thick;
+    border-radius: 0cqi;
+}
+
+.h3.p {
+    text-align: center;
+}
+
+/* .container.card.href {
+    user-select: none;
+    transition: margin-right 2s, color 1s;
+    font-size: 2rem;
+    background-color: black;
+    transition: background-color 2s 500ms;
+} */
+
+/* .href:hover {
+    background-color: darkorange;
+} */
+
+footer {
+
+    height: 10px;
+    border: 10px solid yellow;
+    background-color: aquamarine;
+    margin-top: 100px;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+@media (max-width: 896px) {
+    .container {
+        dimension-responsive: auto;
+        justify-items: stretch;
+        align-items: stretch;
+        justify-content: center;
+        align-content: center;
+    }
+}
